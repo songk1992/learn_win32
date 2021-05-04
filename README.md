@@ -1,9 +1,9 @@
-# WIN32 ╫╨ем╣П©К га╥на╖ф╝
+# WIN32 Л┼╓М└╟К■■Л ╘ М■└К║°Л═²М┼╦
 
 <br />
 <!-- Logo -->
 <p align="center">
-  <h1>win32 API</h1>
+ <img src="/LearnWin32.ico" alt="Note" height="150px">
 </p>
 
 <!-- Title and Description -->
@@ -14,11 +14,11 @@ Note
 
 </div>
 
-# ?? REACT бЭ╟М юз╥А
+# Л╟╦ЙЁ═ Л·░Кё▄
 
 <br />
 
-[ Win32 га╥н╠в╥║╧жюг ╫цюш / ╧╚╥А ╨М╥н╠в ](https://blog.naver.com/tipsware/221059977193 "ааю╨ ╧╝╪╜")
+[ Win32 М■└К║°Й╥╦К·≤К╟█Л²≤ Л▀°Л·▒ / К╛╢Кё▄ К╦■К║°Й╥╦ ](https://blog.naver.com/tipsware/221059977193 "Л╒▀Л²─ К╛╦Л└°")
 
 <br />
 
