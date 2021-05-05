@@ -22,6 +22,10 @@ Note
 
 <br />
 
+[ Win32 API reference (MS) ](https://docs.microsoft.com/ko-kr/windows/win32/api/?WT.mc_id=DT-MVP-4038234 "좋은 문서")
+
+<br />
+
 
 
 
