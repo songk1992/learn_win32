@@ -9,7 +9,25 @@
 // 사용자 메시지를 처리하는 함수
 LRESULT CALLBACK WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
-	if (uMsg == WM_DESTROY) PostQuitMessage(0);
+	// 마우스 왼쪽 클릭시 발생
+	if (uMsg == WM_LBUTTONDOWN) 
+	{
+		if (uMsg == WM_LBUTTONDOWN) {
+			int x = LOWORD(lParam); // 하위 16비트
+			int y = HIWORD(lParam); // 상위 16비트
+
+			x -= 15;
+			y -= 15;
+
+			POINT polygon[10] = { x, y, x+30, y, x + 30, y + 30, x, y+30  };
+			HDC h_dc = GetDC(hWnd);
+			Polygon(h_dc, polygon, 4);
+			ReleaseDC(hWnd, h_dc);
+		}
+	} 
+	else if (uMsg == WM_DESTROY) PostQuitMessage(0);
+
+
 	return DefWindowProc(hWnd, uMsg, wParam, lParam);
 }
 
