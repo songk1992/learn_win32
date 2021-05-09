@@ -3,14 +3,35 @@
 
 // 출처 https://blog.naver.com/tipsware/221028018666
 // 용도 코딩 공부 및 참조용
-// 코드의 출처는 위에 블로그이며 자세한 내용이 무료로 설명과 함께 공개되어 있습니다.
+// 코드의 출처 및 참조는 위에 블로그이며 자세한 내용이 무료로 설명과 함께 공개되어 있습니다.
+// 해당 블로그의 라이센스를 전적으로 따르며
+// 코딩적인 부분만 참조해서 배워서 응용하는 부분입니다.
+// 자세한 내용은 해당 블로그 참조
+// 저작자표시-비영리-변경금지 2.0 대한민국 (CC BY-NC-ND 2.0 KR)
 
 
 // 사용자 메시지를 처리하는 함수
 LRESULT CALLBACK WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
+	// 새로운 윈도우가 만들어진 경우
+	if (uMsg == WM_CREATE) {
+		CREATESTRUCT *p_create_type = (CREATESTRUCT *)lParam;
+		return 0;
+	}
+
+
+
+	// 윈도우의 그림을 다시 그려야 하는 경우
+	else if (uMsg == WM_PAINT) {
+		PAINTSTRUCT ps;
+		HDC h_dc = BeginPaint(hWnd, &ps);
+
+		EndPaint(hWnd, &ps);
+		return 1;
+	}
+
 	// 마우스 왼쪽 클릭시 발생
-	if (uMsg == WM_LBUTTONDOWN) 
+	else if (uMsg == WM_LBUTTONDOWN) 
 	{
 		if (uMsg == WM_LBUTTONDOWN) {
 			int x = LOWORD(lParam); // 하위 16비트
