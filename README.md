@@ -26,6 +26,13 @@ Note
 
 <br />
 
+[ Win32 유튜브 실습강의 / 김성엽 선생님 ](https://www.youtube.com/watch?v=vMaK71X_RNk&list=PLiZvlxkcLhaneey7UCTAruwfPyJZPWTg8 "좋은 문서")
+
+<br />
+
+[ Win32 유튜브 이론강의 / 나우캠퍼스 ](https://www.youtube.com/watch?v=cBDAbWo1sWo&list=PLOKPEzlY4JKTFx1udqQRdYb1ydob9V5u3&index=2 "나우캠퍼스X아워즈팜")
+
+<br />
 
 
 
